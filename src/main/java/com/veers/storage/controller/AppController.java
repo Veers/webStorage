@@ -59,8 +59,8 @@ public class AppController {
 
 		List<User> users = userService.findAllUsers();
 		model.addAttribute("users", users);
-		model.addAttribute("loggedinuser", getPrincipal());
-		return "userslist";
+//		model.addAttribute("loggedinuser", getPrincipal());
+		return "redirect:/storage/files";
 	}
 
 	/**

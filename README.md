@@ -3,7 +3,7 @@
 build status: 
 [![Travis CI Status](https://travis-ci.org/Veers/webStorage.svg?branch=master)](https://travis-ci.org/Veers/webStorage)
 
-Security storage for user files
+Security storage for user appFiles
 
 ## build 
 1. clone repo
